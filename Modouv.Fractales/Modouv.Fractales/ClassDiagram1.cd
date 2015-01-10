@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Modouv.Fractales.Debug.Profiling.FPSCounter">
+    <Position X="47.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAgAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Debug\Profiling\FPSCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Debug.Profiling.Recorder">
+    <Position X="32.5" Y="5.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Modouv.Fractales.Debug.Profiling.Recorder.RecordData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Debug\Profiling\Recorder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAEAAAAAIABAAAA=</HashCode>
+      <FileName>Debug\Profiling\Recorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Debug.Renderers.BoundingBoxRenderer">
+    <Position X="27.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAAAAAAAAAAAAAAAAAAAgAAAAAAABAAAEAAAAA=</HashCode>
+      <FileName>Debug\Renderers\BoundingBoxRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Debug.Renderers.BoundingSphereRenderer">
+    <Position X="49.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAgAAAAAAAgBAAAAAAEAA=</HashCode>
+      <FileName>Debug\Renderers\BoundingSphereRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Debug.Renderers.BoundingFrustumRenderer">
+    <Position X="29" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAEAAAAA=</HashCode>
+      <FileName>Debug\Renderers\FrustumRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Debug.Tools.TextureAtlasCreator">
+    <Position X="41" Y="14" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAgAQAAAAAA=</HashCode>
+      <FileName>Debug\Tools\TextureAtlasCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Forms.StartForm">
+    <Position X="29" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQCARSQAABIAAAiAAAACAAAgAAAAEAACAAAAIAA=</HashCode>
+      <FileName>Forms\StartForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.ModelGenerator">
+    <Position X="36" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Modouv.Fractales.Generation.ModelGenerator.VertexPositionColorNormalTexture" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Generation\3DModelGenerator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAgBAAAAIAAAAAAQA=</HashCode>
+      <FileName>Generation\3DModelGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Attractors.HenonAttractor">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAACAAAAAACAAAAgBAACAAAAAgCwASAAAAAAAAA=</HashCode>
+      <FileName>Generation\Attractors\HenonAttractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Attractors.LorentzAttractor">
+    <Position X="43.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAABAACAAAAAgAQACAAAAAAAAA=</HashCode>
+      <FileName>Generation\Attractors\LorentzAttractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Attractors.RosslerAttractor">
+    <Position X="36" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAgCgASAAAAAAAAA=</HashCode>
+      <FileName>Generation\Attractors\RosslerAttractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Fractals.Julia">
+    <Position X="34.25" Y="6.25" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Modouv.Fractales.Generation.Fractals.Julia.IntValueToColor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Generation\Fractals\Julia.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEBAAACAAAQAAAACEAAAAAAABAACAAAAAAAAAAAI=</HashCode>
+      <FileName>Generation\Fractals\Julia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Fractals.Mandelbrot">
+    <Position X="49" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Generation\Fractals\Mandelbrot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Fractals.Repulsor">
+    <Position X="41" Y="12.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Modouv.Fractales.Generation.Fractals.Repulsor.IntValueToColor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Generation\Fractals\Repulsor.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAQAACAAAQAAAACEAAAAAAABAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Generation\Fractals\Repulsor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Mapping.HeightmapGenerator">
+    <Position X="27" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Generation\Mapping\HeightmapGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Mapping.NormalMapGenerator">
+    <Position X="29" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAEAAAAAAAAAgAAAAAAEAAAAA=</HashCode>
+      <FileName>Generation\Mapping\NormalMapGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Models.DiamondSquareAlgorithm">
+    <Position X="41.25" Y="0.5" Width="2" />
+    <NestedTypes>
+      <Delegate Name="Modouv.Fractales.Generation.Models.DiamondSquareAlgorithm.RandomFunctionDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Generation\Models\DiamondSquareAlgorithm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAwCAABABAAAgAAAAgAAACAAIQACAAACAAAAg=</HashCode>
+      <FileName>Generation\Models\DiamondSquareAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Models.FractalTreeModelGenerator">
+    <Position X="38.75" Y="0.5" Width="2.25" />
+    <NestedTypes>
+      <Struct Name="Modouv.Fractales.Generation.Models.FractalTreeModelGenerator.Frame" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Generation\Models\FractalTreeModelGenerator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Class Name="Modouv.Fractales.Generation.Models.FractalTreeModelGenerator.Branch" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Generation\Models\FractalTreeModelGenerator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAhAAACAAAAAAAAgAIAAAAACAAAQAA=</HashCode>
+      <FileName>Generation\Models\FractalTreeModelGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Models.SquareAlgorithm">
+    <Position X="27.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAAIAAAAAAAAAAAAAAIAAAAAACAAAAAAAAQAACAAA=</HashCode>
+      <FileName>Generation\Models\SquareAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Noise.GradientCoherentNoise">
+    <Position X="15.5" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Generation\Noise\GradientCoherentNoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Noise.GradientNoise">
+    <Position X="1.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Generation\Noise\GradientNoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Noise.NoiseBase">
+    <Position X="8.5" Y="0.5" Width="2.25" />
+    <NestedTypes>
+      <Enum Name="Modouv.Fractales.Generation.Noise.NoiseBase.NoiseQuality" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Generation\Noise\NoiseBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQEAQAggYARQCgBAYEAAkgAkAIAAAAEABAAAIQAABAA=</HashCode>
+      <FileName>Generation\Noise\NoiseBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Noise.NoiseMapGenerator">
+    <Position X="27.25" Y="4.5" Width="1.75" />
+    <NestedTypes>
+      <Class Name="Modouv.Fractales.Generation.Noise.NoiseMapGenerator.NoiseParameters" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Generation\Noise\NoiseMapGenerator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgBAAAAACAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Generation\Noise\NoiseMapGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Noise.PerlinNoise">
+    <Position X="3.5" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAQgAIAAQAAAAQAAAYAAAAAAAECAAAAAAAgAABAA=</HashCode>
+      <FileName>Generation\Noise\PerlinNoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Noise.RidgedMultifractalNoise">
+    <Position X="5.75" Y="8.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIgAIAAAAEAQQABAAAAGAAQAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Generation\Noise\RidgedMultifractalNoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Noise.ValueCoherentNoise">
+    <Position X="8.5" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Generation\Noise\ValueCoherentNoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Noise.VoronoiNoise">
+    <Position X="11" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAQhAIAASAAAAwAAAYAAAAAAAEAAAAABACgAABAA=</HashCode>
+      <FileName>Generation\Noise\VoronoiNoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Noise.WhiteNoise">
+    <Position X="13.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Generation\Noise\WhiteNoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Populations.ObjectPopulator">
+    <Position X="49.5" Y="9.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Modouv.Fractales.Generation.Populations.ObjectPopulator.PopulateFunction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Generation\Populations\ObjectPopulator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="Modouv.Fractales.Generation.Populations.ObjectPopulator.PopulationData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Generation\Populations\ObjectPopulator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Generation\Populations\ObjectPopulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Populations.WorldFantasy.FernPopulation">
+    <Position X="36.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Generation\Populations\WorldFantasy\FernPopulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Populations.WorldFantasy.FractalTreePopulator">
+    <Position X="45.5" Y="4.5" Width="1.75" />
+    <NestedTypes>
+      <Enum Name="Modouv.Fractales.Generation.Populations.WorldFantasy.FractalTreePopulator.TreeKind" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Generation\Populations\WorldFantasy\FractalTreePopulator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAIAAAEAAAAA=</HashCode>
+      <FileName>Generation\Populations\WorldFantasy\FractalTreePopulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Populations.WorldFantasy.LightPopulation">
+    <Position X="27.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Generation\Populations\WorldFantasy\LightPopulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Populations.WorldFantasy.PalmTreePopulation">
+    <Position X="40.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Generation\Populations\WorldFantasy\PalmTreePopulation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Generation.Populations.WorldFantasy.PlantPopulation">
+    <Position X="25.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Generation\Populations\WorldFantasy\PlantPopulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.MathHelpers.ColorOperations">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Modouv.Fractales.MathHelpers.ColorOperations.HSL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MathHelpers\ColorOperations.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>MathHelpers\ColorOperations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Pool&lt;T&gt;">
+    <Position X="28.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAECBAAAAAAAACAAAAAAAAARAAAAAJAABAAAI=</HashCode>
+      <FileName>Scenes\Pool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Scenes.Scene">
+    <Position X="6" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAgAAAwAAAAAAAAAACAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Scenes\Scene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Scenes.SceneFantasyWorld">
+    <Position X="15.75" Y="18.25" Width="3" />
+    <NestedTypes>
+      <Enum Name="Modouv.Fractales.Scenes.SceneFantasyWorld.Season" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Scenes\SceneFantasyWorld.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>FnSlAAAIEiA0E1UyONgaBgIEAlAYA5pCRAN8EAMCSAU=</HashCode>
+      <FileName>Scenes\SceneFantasyWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Scenes.SceneTestChaoticAttractor">
+    <Position X="10.5" Y="18" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQQQAAAAACAAAyACAAAwAAAAQAACIQAkCAAAQAACAAI=</HashCode>
+      <FileName>Scenes\SceneTestChaoticAttractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Scenes.SceneFractalWorld">
+    <Position X="3.5" Y="18" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQQQAAAACBggAwQAABAQAAIAgiAAIFAAAABEQAIABAA=</HashCode>
+      <FileName>Scenes\SceneTestGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Scenes.SceneTestJulia">
+    <Position X="8.25" Y="18" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQQAAgAAAAAACyIQACA0AAAEQAADIQAAIAAAABACAAI=</HashCode>
+      <FileName>Scenes\SceneTestJulia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Scenes.SceneTestLandscape">
+    <Position X="1" Y="25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EiSEAAAAEAA4E5QwMBASRgIBAEAQABACBANsEAMAAAA=</HashCode>
+      <FileName>Scenes\SceneTestLandscape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Scenes.SceneTree">
+    <Position X="3.5" Y="25" Width="3" />
+    <NestedTypes>
+      <Enum Name="Modouv.Fractales.Scenes.SceneTree.Season" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Scenes\SceneTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EiQEAAAIEAA0E1QwMNgSBAIAAkAQARACRAl8EAMCQAQ=</HashCode>
+      <FileName>Scenes\SceneTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.Scenes.OceanTask">
+    <Position X="45.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAACAAAAABAAAAAAABCAAAAAgIAAAAEgoIAI=</HashCode>
+      <FileName>Scenes\Task.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Cameras.CameraFirstPerson" BaseTypeListCollapsed="true">
+    <Position X="32.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACEAEAAAACAIECAgAAAAAAAAAAFBAgAAAACAABACAAI=</HashCode>
+      <FileName>World\Cameras\CameraFirstPerson.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Modouv.Fractales.World.Cameras.FirstPersonCameraV2" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACEAEAAAACAIECAgAAAAAAAAAAFBAgAAAACAABACAAI=</HashCode>
+      <FileName>World\Cameras\FirstPersonCameraV2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Modouv.Fractales.World.GraphicalParameters">
+    <Position X="36" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BQYAAABAAAIAgAAAJFAAAQxpQBCkgBSgiBQAiAAhAAQ=</HashCode>
+      <FileName>World\GameWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.GameWorld">
+    <Position X="33.5" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>hAUiAAEQADAQAgAAgHAAAByAgAABAAIAQBACAEASASA=</HashCode>
+      <FileName>World\GameWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.LensFlareComponent">
+    <Position X="23.25" Y="6" Width="1.75" />
+    <NestedTypes>
+      <Class Name="Modouv.Fractales.World.LensFlareComponent.Flare" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>World\LensFlareComponent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAKEEAAEAAAAgBABBAIAgAAABCBIAAAAABExCCQAAQ=</HashCode>
+      <FileName>World\LensFlareComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.ModelData">
+    <Position X="40.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABEAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>World\ModelData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.PrimitiveData">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABEAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>World\ModelData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.HUD.HUDCheckbox">
+    <Position X="13.75" Y="14" Width="1.75" />
+    <NestedTypes>
+      <Delegate Name="Modouv.Fractales.World.HUD.HUDCheckbox.ValueChangedDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>World\HUD\HUDCheckbox.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQIAAAAgCgAAAAAAAAAEAAAAAABAAACAAAAAA=</HashCode>
+      <FileName>World\HUD\HUDCheckbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.HUD.HUDLabel">
+    <Position X="16" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEIAAAAgAgAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>World\HUD\HUDLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.HUD.HUDManager">
+    <Position X="48.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAoAAAAAAAAAAAAAAAABAAAAAIAAAAAA=</HashCode>
+      <FileName>World\HUD\HUDManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.HUD.HUDPanelManager">
+    <Position X="18.25" Y="14" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAEIAAAAoACAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>World\HUD\HUDPanelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.HUD.HUDTrackbar">
+    <Position X="20.75" Y="14" Width="1.75" />
+    <NestedTypes>
+      <Delegate Name="Modouv.Fractales.World.HUD.HUDTrackbar.ValueChangedDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>World\HUD\HUDTrackbar.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAggggAAAAAEAAAEAAAAAgAAAgCAAAgAA=</HashCode>
+      <FileName>World\HUD\HUDTrackbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.HUD.HUDTrackbarInt">
+    <Position X="23" Y="14" Width="1.75" />
+    <NestedTypes>
+      <Delegate Name="Modouv.Fractales.World.HUD.HUDTrackbarInt.ValueChangedDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>World\HUD\HUDTrackbarInt.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAggggAAAAAEAAAEAAAAAgAAAgCAAAgAA=</HashCode>
+      <FileName>World\HUD\HUDTrackbarInt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.HUD.HUDComponent">
+    <Position X="18.5" Y="11.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Modouv.Fractales.World.HUD.HUDComponent.ComponentValue" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>World\HUD\IHUDComponent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\HUD\IHUDComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.DynamicInstancedObjects" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QgCCACQIACAAIgAABAAASAAAEgABIACAgEgABiACAAA=</HashCode>
+      <FileName>World\Objects\DynamicInstancedObjects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.DynamicMipmapedObject" BaseTypeListCollapsed="true">
+    <Position X="21" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QggAAAAIACAAAqGgAAJgAAAAAAAAAAACoBgAAAHAiAA=</HashCode>
+      <FileName>World\Objects\DynamicMipmapedObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.DynamicObject">
+    <Position X="0.5" Y="10.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>wggAAAAIACAAAqGgAAJgAAAAAAAAAAAAoIgBQAHAigQ=</HashCode>
+      <FileName>World\Objects\DynamicObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.Landscape">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAAAEQAIAgAgADCQIAAAIAAAAEAgABAAAEBAAAA=</HashCode>
+      <FileName>World\Objects\Landscape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.LandscapeSingle">
+    <Position X="43.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAEUAAAgAgABCAIAAAAAAAAAAgAAAAAABAAAA=</HashCode>
+      <FileName>World\Objects\LandscapeSingle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.ModelMipmap">
+    <Position X="45.75" Y="6.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Modouv.Fractales.World.Objects.ModelMipmap.ModelQuality" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>World\Objects\ModelMipmap.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACAAAACAAABAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Objects\ModelMipmap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.ObjectCullingGroup" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAAgEAIAAAAAAAAAAAAAEggAAAAAAACAA=</HashCode>
+      <FileName>World\Objects\ObjectCullingGroup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.StaticInstancedObjects" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QgiCACwIACgEIgEAIAAASAAAkgADIAACgEgABiACCAA=</HashCode>
+      <FileName>World\Objects\StaticInstancedObjects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.Particles.ParticleManager">
+    <Position X="41" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACgAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Objects\Particles\ParticleManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.Particles.SnowParticle" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAQCAAB4AAAAAAAAAAAACAAEQAAAAAACkAAgA=</HashCode>
+      <FileName>World\Objects\Particles\SnowParticle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.Specialized.NoiseMap">
+    <Position X="25.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACGAEAAAAAIIBACBAAAKKAAAAAAYAAAIgIAA=</HashCode>
+      <FileName>World\Objects\Specialized\NoiseMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.Specialized.Skybox">
+    <Position X="43.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAQAAAkAAAAAAAAAgAAAAAEAAAAAAAALBAAA=</HashCode>
+      <FileName>World\Objects\Specialized\Skybox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Objects.Specialized.WaterObject">
+    <Position X="0.5" Y="18.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQEAAgAAAAAAAEAAAAAAAAAAAABAABAAAAA=</HashCode>
+      <FileName>World\Objects\Specialized\WaterObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Player.Player">
+    <Position X="25.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAAAACAAAAAggAAAAAAACAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Player\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Postprocess.Bloom">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABBAAAEgBIAAAABAAAAAAAAhQAAAAAAABAACAAAgA=</HashCode>
+      <FileName>World\Postprocess\Bloom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Postprocess.DepthOfField">
+    <Position X="38" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABFAAAAoBIRAAAAAAAAAAAABAAAAAAAABAECAAAgA=</HashCode>
+      <FileName>World\Postprocess\DepthOfField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Postprocess.FocusCalculationChain">
+    <Position X="46.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIASAAAAAAAAIAAGAAAAAAAAEAAgAAAAAgAUAAAAAAA=</HashCode>
+      <FileName>World\Postprocess\FocusCalculationChain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Postprocess.GaussianBlur">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKCAAACAAAAAAAAAAQAACAEBABgAAYAIAAAgAAAAo=</HashCode>
+      <FileName>World\Postprocess\GaussianBlur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modouv.Fractales.World.Postprocess.LuminanceCalculationChain">
+    <Position X="38" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAQAAAAAAAACAAEAAIAAAEAAAAgAAAgAAAFAAAAAAA=</HashCode>
+      <FileName>World\Postprocess\LuminanceCalculationChain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Modouv.Fractales.MathHelpers.Complex">
+    <Position X="25.5" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAYAEAACAAAAAAAAAAAAAACAAAAAE=</HashCode>
+      <FileName>MathHelpers\Complex.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Modouv.Fractales.World.Objects.VertexInstance">
+    <Position X="20.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAEAAAAAAAAAAAAgAAABAAAAAAAAAAA=</HashCode>
+      <FileName>World\Objects\DynamicInstancedObjects.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Modouv.Fractales.World.Objects.Transform">
+    <Position X="25.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAIEgAAJAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Objects\DynamicInstancedObjects.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Modouv.Fractales.World.Cameras.Camera">
+    <Position X="25.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Cameras\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Modouv.Fractales.World.Objects.IObject3D">
+    <Position X="25.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>World\Objects\IObject3D.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Modouv.Fractales.World.Objects.Particles.IParticle">
+    <Position X="27.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Objects\Particles\IParticle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

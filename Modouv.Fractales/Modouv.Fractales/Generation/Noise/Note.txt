@@ -1,0 +1,6 @@
+﻿/*
+ * Certains algorithmes inclus dans les fichiers "NoiseBase.cs", "PerlinNoise.cs", "VoronoiNoise.cs", "RidgedMultifractalNoise.cs", sont inspirés
+ * de la librairie libnoise, et ont été portés vers C# et réduits à deux dimensions.
+ * 
+ * La license du code original est détaillée dans COPYING.txt.
+*/

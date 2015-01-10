@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{3FE15148-550A-4C7F-982C-301B660B2137}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Modouv.Fractales</RootNamespace>
+    <AssemblyName>Modouv.Fractales</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>feb845d4-8dca-4aef-a6a2-9f3950138f63</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Debug\Profiling\FPSCounter.cs" />
+    <Compile Include="Debug\Profiling\Recorder.cs" />
+    <Compile Include="Debug\Renderers\BoundingBoxRenderer.cs" />
+    <Compile Include="Debug\Renderers\BoundingSphereRenderer.cs" />
+    <Compile Include="Debug\Renderers\FrustumRenderer.cs" />
+    <Compile Include="Debug\Tools\TextureAtlasCreator.cs" />
+    <Compile Include="Forms\StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StartForm.Designer.cs">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generation\Attractors\HenonAttractor.cs" />
+    <Compile Include="Generation\Attractors\LorentzAttractor.cs" />
+    <Compile Include="Generation\Attractors\RosslerAttractor.cs" />
+    <Compile Include="Generation\Fractals\Repulsor.cs" />
+    <Compile Include="Generation\Fractals\Julia.cs" />
+    <Compile Include="Generation\Fractals\Mandelbrot.cs" />
+    <Compile Include="Generation\Mapping\NormalMapGenerator.cs" />
+    <Compile Include="Generation\Mapping\HeightmapGenerator.cs" />
+    <Compile Include="Generation\Models\FractalTreeModelGenerator.cs" />
+    <Compile Include="Generation\Models\SquareAlgorithm.cs" />
+    <Compile Include="Generation\Models\DiamondSquareAlgorithm.cs" />
+    <Compile Include="Generation\Noise\GradientNoise.cs" />
+    <Compile Include="Generation\Noise\ValueCoherentNoise.cs" />
+    <Compile Include="Generation\Noise\GradientCoherentNoise.cs" />
+    <Compile Include="Generation\Noise\WhiteNoise.cs" />
+    <Compile Include="Generation\Noise\PerlinNoise.cs" />
+    <Compile Include="Generation\Noise\VoronoiNoise.cs" />
+    <Compile Include="Generation\Noise\NoiseBase.cs" />
+    <Compile Include="Generation\Noise\NoiseMapGenerator.cs" />
+    <Content Include="Generation\Noise\Note.txt" />
+    <Compile Include="Generation\Noise\RidgedMultifractalNoise.cs" />
+    <Compile Include="Generation\Populations\WorldFantasy\FractalTreePopulator.cs" />
+    <Compile Include="Generation\Populations\WorldFantasy\LightPopulator.cs" />
+    <Compile Include="Generation\Populations\WorldFantasy\PlantPopulator.cs" />
+    <Compile Include="Generation\Populations\WorldFantasy\FernPopulator.cs" />
+    <Compile Include="Generation\Populations\WorldFantasy\PalmTreePopulation.cs" />
+    <Compile Include="Scenes\SceneTree.cs" />
+    <Compile Include="Scenes\SceneTestLandscape.cs" />
+    <Compile Include="Scenes\SceneFantasyWorld.cs" />
+    <Compile Include="Scenes\Pool.cs" />
+    <Compile Include="Scenes\SceneTestChaoticAttractor.cs" />
+    <Compile Include="Scenes\Task.cs" />
+    <Compile Include="World\Cameras\Camera.cs" />
+    <Compile Include="World\Cameras\CameraFirstPerson.cs" />
+    <Compile Include="World\Cameras\FirstPersonCameraV2.cs" />
+    <Compile Include="World\HUD\HUDLabel.cs" />
+    <Compile Include="World\HUD\HUDTrackbarInt.cs" />
+    <Compile Include="World\HUD\HUDPanelManager.cs" />
+    <Compile Include="World\HUD\HUDTrackbar.cs" />
+    <Compile Include="World\HUD\HUDCheckbox.cs" />
+    <Compile Include="World\HUD\HUDManager.cs" />
+    <Compile Include="World\HUD\IHUDComponent.cs" />
+    <Compile Include="World\Objects\Particles\IParticle.cs" />
+    <Compile Include="World\Objects\Particles\ParticleManager.cs" />
+    <Compile Include="World\Objects\Particles\SnowParticle.cs" />
+    <Compile Include="World\Objects\Specialized\NoiseMap.cs" />
+    <Compile Include="World\Postprocess\Bloom.cs" />
+    <Compile Include="World\Postprocess\DepthOfField.cs" />
+    <Compile Include="World\Postprocess\FocusCalculationChain.cs" />
+    <Compile Include="World\Postprocess\GaussianBlur.cs" />
+    <Compile Include="World\Objects\DynamicMipmapedObject.cs" />
+    <Compile Include="World\Objects\ModelMipmap.cs" />
+    <Compile Include="World\Objects\Landscape.cs" />
+    <Compile Include="World\Objects\IObject3D.cs" />
+    <Compile Include="World\LensFlareComponent.cs" />
+    <Compile Include="Generation\Populations\ObjectPopulator.cs" />
+    <Compile Include="World\Objects\Specialized\Skybox.cs" />
+    <Compile Include="World\Objects\Specialized\WaterObject.cs" />
+    <Compile Include="World\Objects\StaticInstancedObjects.cs" />
+    <Compile Include="World\Objects\DynamicInstancedObjects.cs" />
+    <Compile Include="World\GameWorld.cs" />
+    <Compile Include="World\Objects\LandscapeSingle.cs" />
+    <Compile Include="World\ModelData.cs" />
+    <Compile Include="World\Objects\DynamicObject.cs" />
+    <Compile Include="Input.cs" />
+    <Compile Include="Generation\3DModelGenerator.cs" />
+    <Compile Include="MathHelpers\ColorOperations.cs" />
+    <Compile Include="MathHelpers\Complex.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Scenes\SceneTestGenerator.cs" />
+    <Compile Include="Scenes\Scene.cs" />
+    <Compile Include="Scenes\SceneTestJulia.cs" />
+    <Compile Include="World\Objects\ObjectCullingGroup.cs" />
+    <Compile Include="World\Player\Player.cs" />
+    <Compile Include="World\Postprocess\LuminanceCalculationChain.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Forms\start.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+    <Content Include="Generation\Noise\COPYING.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modouv.Fractales.Content\Modouv.Fractales.Content.contentproj">
+      <Project>{6108B3B2-0373-4BA3-9150-1A199FF29C6C}</Project>
+      <Name>Modouv.Fractales.Content %28Content%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>
